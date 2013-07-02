@@ -14,6 +14,7 @@ This image works out of the box. All you have to do is to install run
 
 ```Shell
 vagrant up
+```
 
 usage
 =====================
@@ -22,17 +23,19 @@ After the installation succeeded you will be able to enter your new Vagrant imag
 
 ```Shell
 vagrant ssh
+```
 
 phantoms is waiting inside the machine and waits to be called:
 
 ```Shell
 DISPLAY=:0 phantomjs <arguments>
+```
 
 The include demo script shows how to take screenshots of youtube videos:
 
 ```Shell
 DISPLAY=:0 phantomjs /vagrant/setup/demo/youtube.js
-
+```
 
 binaries
 =====================
