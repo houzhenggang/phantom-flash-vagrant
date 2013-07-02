@@ -10,7 +10,8 @@ dependencies
 installation
 =====================
 
-This image works out of the box. All you have to do is to install run
+This image should work out of the box.
+All you have to do is to launch Vagrant:
 
 ```Shell
 vagrant up
@@ -25,7 +26,7 @@ After the installation succeeded you will be able to enter your new Vagrant imag
 vagrant ssh
 ```
 
-phantoms is waiting inside the machine and waits to be called:
+phantoms is waiting inside the machine to be called:
 
 ```Shell
 DISPLAY=:0 phantomjs <arguments>
@@ -42,4 +43,5 @@ binaries
 
 the phantomjs binary was built by Ryan Bridges:
 
+https://github.com/r3b/phantomjs
 http://www.ryanbridges.org/2013/05/21/putting-the-flash-back-in-phantomjs/
