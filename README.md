@@ -26,16 +26,10 @@ After the installation succeeded you will be able to enter your new Vagrant imag
 vagrant ssh
 ```
 
-phantoms is waiting inside the machine to be called:
+The included demo script shows how phantomjs enables you to take screenshots of youtube videos:
 
 ```Shell
-DISPLAY=:0 phantomjs <arguments>
-```
-
-The include demo script shows how to take screenshots of youtube videos:
-
-```Shell
-DISPLAY=:0 phantomjs /vagrant/setup/demo/youtube.js
+phantomjs /vagrant/setup/demo/youtube.js
 ```
 
 binaries
