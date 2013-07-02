@@ -1,7 +1,7 @@
 phantom-flash-vagrant
 =====================
 
-Vagrant configuration for PhantomJS 1.4 (with Adobe Flash support)
+Vagrant configuration for PhantomJS 1.10 (with Adobe Flash support)
 dependencies
 =====================
 
@@ -37,5 +37,5 @@ binaries
 
 the phantomjs binary was built by Ryan Bridges:
 
-https://github.com/r3b/phantomjs
-http://www.ryanbridges.org/2013/05/21/putting-the-flash-back-in-phantomjs/
+* https://github.com/r3b/phantomjs
+* http://www.ryanbridges.org/2013/05/21/putting-the-flash-back-in-phantomjs/
