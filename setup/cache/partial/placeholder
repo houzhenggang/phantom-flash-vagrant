@@ -1,0 +1,4 @@
+This folder is a shared version of /var/cache/apt/archives/ in order to keep the apt cache
+outside of the virtual machine.
+
+The folder is ignored using .gitignore but Vagrant won't boot without it.
